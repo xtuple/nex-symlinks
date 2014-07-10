@@ -1,6 +1,6 @@
 {
   "name": "nex-symlinks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "nex-symlinks ============",
   "main": "index.js",
   "scripts": {
