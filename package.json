@@ -21,6 +21,7 @@
   "homepage": "https://github.com/tjwebb/nex-symlinks",
   "dependencies": {
     "lodash": "^2.4.1",
-    "nex-api": "^2.0.1"
+    "nex-api": "^2.0.1",
+    "npmlog": "^0.1.1"
   }
 }
