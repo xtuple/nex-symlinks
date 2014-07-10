@@ -1,0 +1,26 @@
+{
+  "name": "nex-symlinks",
+  "version": "0.0.0",
+  "description": "nex-symlinks ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tjwebb/nex-symlinks.git"
+  },
+  "keywords": [
+    "nex"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwebb/nex-symlinks/issues"
+  },
+  "homepage": "https://github.com/tjwebb/nex-symlinks",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "nex-api": "^2.0.1"
+  }
+}
