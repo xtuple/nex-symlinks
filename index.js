@@ -17,12 +17,12 @@ handler.do = function (pkg) {
     log.info('symlink', linkName, '->'.green, target);
     rimraf.sync(linkName);
     fs.symlinkSync(target, linkName);
-  });
+  }, this);
 };
 
 /**
  * @override
  */
 handler.undo = function (pkg) {
-  _.each(pkg[this.field], rimraf.sync);
+  _.each(pkg[this.field], rimraf.sync, this);
 };
