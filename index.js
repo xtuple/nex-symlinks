@@ -1,9 +1,10 @@
 'use strict';
 
+var fs = require('fs');
+var path = require('path');
 var _ = require('lodash');
 var nex = require('nex-api');
 var rimraf = require('rimraf');
-var fs = require('fs');
 var log = require('npmlog');
 var colors = require('colors');
 
@@ -16,7 +17,7 @@ handler.do = function (pkg) {
   _.each(pkg[this.field], function (linkName, target) {
     log.info('symlink', linkName, '->'.green, target);
     rimraf.sync(linkName);
-    fs.symlinkSync(target, linkName);
+    fs.symlinkSync(path.resolve(global.cwd, target), linkName);
   }, this);
 };
 
