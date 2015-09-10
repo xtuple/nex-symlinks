@@ -1,6 +1,6 @@
 {
   "name": "nex-symlinks",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "nex-symlinks ============",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tjwebb/nex-symlinks.git"
+    "url": "git://github.com/xtuple/nex-symlinks.git"
   },
   "keywords": [
     "nex",
@@ -17,9 +17,9 @@
   "author": "Travis Webb <me@traviswebb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tjwebb/nex-symlinks/issues"
+    "url": "https://github.com/xtuple/nex-symlinks/issues"
   },
-  "homepage": "https://github.com/tjwebb/nex-symlinks",
+  "homepage": "https://github.com/xtuple/nex-symlinks",
   "dependencies": {
     "colors": "^0.6.2",
     "lodash": "^2.4.1",
